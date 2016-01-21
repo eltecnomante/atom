@@ -1,21 +1,30 @@
 "*":
-  "exception-reporting":
-    userId: "bd7c724a-8bed-0d47-4501-f015fa01f47a"
-  welcome:
-    showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "53421fba-d557-4cac-87fb-7c382a66bc5c"
   core:
+    audioBeep: false
+    disabledPackages: [
+      "linter-scss-lint"
+    ]
     themes: [
       "atom-dark-ui"
       "monokai"
     ]
+  "css-comb":
+    shouldUpdateOnSave: true
   editor:
+    fontSize: 12
     invisibles: {}
     preferredLineLength: 200
-    fontSize: 12
-  "one-dark-ui": {}
+    useShadowDOM: false
+  "exception-reporting":
+    userId: "bd7c724a-8bed-0d47-4501-f015fa01f47a"
+  "markdown-preview": {}
+  "markdown-preview-plus": {}
   minimap: {}
-  "atom-beautify":
-    _analyticsUserId: "53421fba-d557-4cac-87fb-7c382a66bc5c"
+  "one-dark-ui": {}
+  welcome:
+    showOnStartup: false
 ".sass.source":
   editor:
     autoIndentOnPaste: true
